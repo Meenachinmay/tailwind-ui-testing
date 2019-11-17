@@ -82,8 +82,8 @@
 
             </header>
 
-            <div class="flex-1 flex">
-                <div class="w-64 bg-gray-100 p-6">
+            <div class="flex overflow-hidden">
+                <div class="w-64 bg-white p-6 overflow-y-auto">
                     <nav>
                         <h2 class="text-sm font-semibold text-gray-600 tracking-wide uppercase">Mailboxes</h2>
                         <div class="mt-4">
@@ -186,9 +186,306 @@
                         <a href="#" class="block text-sm font-semibold text-gray-700 mt-4">Bugs</a>
                     </div>
                 </div>
-                <main class="bg-gray-200">
-                    <div></div>
-                    <div></div>
+                <main class="flex-1 flex bg-gray-100">
+                    <div class="flex-col w-full max-w-xs border-l border-r overflow-y-auto">
+                        <div class="flex-shrink-0 flex items-center justify-between border-b px-4 py-2">
+                            <button class="flex justify-between">
+                                <p class="text-xs font-semibold text-gray-600">
+                                    Sorted by Date
+                                </p>
+                                <div class="ml-2 h-5 w-5 text-gray-500 stroke-current">
+                                    <svg
+                                         fill="currentColor"
+                                         xmlns="http://www.w3.org/2000/svg"
+                                         viewBox="0 0 20 20">
+                                        <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+                                </div>
+                            </button>
+                            <button>
+                                <svg class="h-5 w-5 fill-current text-gray-500 stroke-current" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                     viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                    <g>
+                                        <g>
+                                            <rect width="512" height="32"/>
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <rect y="80" width="416" height="32"/>
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <rect y="160" width="320" height="32"/>
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <rect y="240" width="224" height="32"/>
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <rect y="320" width="160" height="32"/>
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path d="M427.312,164.688c-6.256-6.256-16.368-6.256-22.624,0l-48,48l22.624,22.624L400,214.624V464h32V214.624l20.688,20.688
+			                                l22.624-22.624L427.312,164.688z"/>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </button>
+                        </div>
+                        <div>
+                            <a href="#" class="block bg-white px-6 pt-3 pb-4 rounded-lg">
+                                <div class="flex justify-between items-center">
+                                    <span class="text-sm font-semibold text-gray-800">
+                                        Gloria Robertson
+                                    </span>
+                                    <span class="text-xs font-semibold text-gray-600">
+                                        2 days ago
+                                    </span>
+                                </div>
+                                <p class="text-sm text-gray-800 font-semibold">
+                                    Refund
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600 font-semibold truncate">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </p>
+                            </a><a href="#" class="block bg-white px-6 pt-3 pb-4 rounded-lg border-t">
+                                <div class="flex justify-between items-center">
+                                    <span class="text-sm font-semibold text-gray-800">
+                                        Gloria Robertson
+                                    </span>
+                                    <span class="text-xs font-semibold text-gray-600">
+                                        2 days ago
+                                    </span>
+                                </div>
+                                <p class="text-sm text-gray-800 font-semibold">
+                                    Refund
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600 font-semibold truncate">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </p>
+                            </a><a href="#" class="block bg-white px-6 pt-3 pb-4 rounded-lg border-t">
+                                <div class="flex justify-between items-center">
+                                    <span class="text-sm font-semibold text-gray-800">
+                                        Gloria Robertson
+                                    </span>
+                                    <span class="text-xs font-semibold text-gray-600">
+                                        2 days ago
+                                    </span>
+                                </div>
+                                <p class="text-sm text-gray-800 font-semibold">
+                                    Refund
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600 font-semibold truncate">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </p>
+                            </a><a href="#" class="block bg-white px-6 pt-3 pb-4 rounded-lg border-t">
+                                <div class="flex justify-between items-center">
+                                    <span class="text-sm font-semibold text-gray-800">
+                                        Gloria Robertson
+                                    </span>
+                                    <span class="text-xs font-semibold text-gray-600">
+                                        2 days ago
+                                    </span>
+                                </div>
+                                <p class="text-sm text-gray-800 font-semibold">
+                                    Refund
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600 font-semibold truncate">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </p>
+                            </a>
+                            <a href="#" class="block bg-white px-6 pt-3 pb-4 rounded-lg border-t">
+                                <div class="flex justify-between items-center">
+                                    <span class="text-sm font-semibold text-gray-800">
+                                        Gloria Robertson
+                                    </span>
+                                    <span class="text-xs font-semibold text-gray-600">
+                                        2 days ago
+                                    </span>
+                                </div>
+                                <p class="text-sm text-gray-800 font-semibold">
+                                    Refund
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600 font-semibold truncate">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </p>
+                            </a><a href="#" class="block bg-white px-6 pt-3 pb-4 rounded-lg border-t">
+                                <div class="flex justify-between items-center">
+                                    <span class="text-sm font-semibold text-gray-800">
+                                        Gloria Robertson
+                                    </span>
+                                    <span class="text-xs font-semibold text-gray-600">
+                                        2 days ago
+                                    </span>
+                                </div>
+                                <p class="text-sm text-gray-800 font-semibold">
+                                    Refund
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600 font-semibold truncate">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </p>
+                            </a><a href="#" class="block bg-white px-6 pt-3 pb-4 rounded-lg border-t">
+                                <div class="flex justify-between items-center">
+                                    <span class="text-sm font-semibold text-gray-800">
+                                        Gloria Robertson
+                                    </span>
+                                    <span class="text-xs font-semibold text-gray-600">
+                                        2 days ago
+                                    </span>
+                                </div>
+                                <p class="text-sm text-gray-800 font-semibold">
+                                    Refund
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600 font-semibold truncate">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </p>
+                            </a><a href="#" class="block bg-white px-6 pt-3 pb-4 rounded-lg border-t">
+                                <div class="flex justify-between items-center">
+                                    <span class="text-sm font-semibold text-gray-800">
+                                        Gloria Robertson
+                                    </span>
+                                    <span class="text-xs font-semibold text-gray-600">
+                                        2 days ago
+                                    </span>
+                                </div>
+                                <p class="text-sm text-gray-800 font-semibold">
+                                    Refund
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600 font-semibold truncate">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </p>
+                            </a><a href="#" class="block bg-white px-6 pt-3 pb-4 rounded-lg border-t">
+                                <div class="flex justify-between items-center">
+                                    <span class="text-sm font-semibold text-gray-800">
+                                        Gloria Robertson
+                                    </span>
+                                    <span class="text-xs font-semibold text-gray-600">
+                                        2 days ago
+                                    </span>
+                                </div>
+                                <p class="text-sm text-gray-800 font-semibold">
+                                    Refund
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600 font-semibold truncate">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </p>
+                            </a><a href="#" class="block bg-white px-6 pt-3 pb-4 rounded-lg border-t">
+                                <div class="flex justify-between items-center">
+                                    <span class="text-sm font-semibold text-gray-800">
+                                        Gloria Robertson
+                                    </span>
+                                    <span class="text-xs font-semibold text-gray-600">
+                                        2 days ago
+                                    </span>
+                                </div>
+                                <p class="text-sm text-gray-800 font-semibold">
+                                    Refund
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600 font-semibold truncate">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </p>
+                            </a><a href="#" class="block bg-white px-6 pt-3 pb-4 rounded-lg border-t">
+                                <div class="flex justify-between items-center">
+                                    <span class="text-sm font-semibold text-gray-800">
+                                        Gloria Robertson
+                                    </span>
+                                    <span class="text-xs font-semibold text-gray-600">
+                                        2 days ago
+                                    </span>
+                                </div>
+                                <p class="text-sm text-gray-800 font-semibold">
+                                    Refund
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600 font-semibold truncate">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </p>
+                            </a><a href="#" class="block bg-white px-6 pt-3 pb-4 rounded-lg border-t">
+                                <div class="flex justify-between items-center">
+                                    <span class="text-sm font-semibold text-gray-800">
+                                        Gloria Robertson
+                                    </span>
+                                    <span class="text-xs font-semibold text-gray-600">
+                                        2 days ago
+                                    </span>
+                                </div>
+                                <p class="text-sm text-gray-800 font-semibold">
+                                    Refund
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600 font-semibold truncate">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </p>
+                            </a><a href="#" class="block bg-white px-6 pt-3 pb-4 rounded-lg border-t">
+                                <div class="flex justify-between items-center">
+                                    <span class="text-sm font-semibold text-gray-800">
+                                        Gloria Robertson
+                                    </span>
+                                    <span class="text-xs font-semibold text-gray-600">
+                                        2 days ago
+                                    </span>
+                                </div>
+                                <p class="text-sm text-gray-800 font-semibold">
+                                    Refund
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600 font-semibold truncate">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </p>
+                            </a><a href="#" class="block bg-white px-6 pt-3 pb-4 rounded-lg border-t">
+                                <div class="flex justify-between items-center">
+                                    <span class="text-sm font-semibold text-gray-800">
+                                        Gloria Robertson
+                                    </span>
+                                    <span class="text-xs font-semibold text-gray-600">
+                                        2 days ago
+                                    </span>
+                                </div>
+                                <p class="text-sm text-gray-800 font-semibold">
+                                    Refund
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600 font-semibold truncate">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </p>
+                            </a><a href="#" class="block bg-white px-6 pt-3 pb-4 rounded-lg border-t">
+                                <div class="flex justify-between items-center">
+                                    <span class="text-sm font-semibold text-gray-800">
+                                        Gloria Robertson
+                                    </span>
+                                    <span class="text-xs font-semibold text-gray-600">
+                                        2 days ago
+                                    </span>
+                                </div>
+                                <p class="text-sm text-gray-800 font-semibold">
+                                    Refund
+                                </p>
+                                <p class="mt-2 text-sm text-gray-600 font-semibold truncate">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex-1 p-8 bg-red-500">
+
+                    </div>
                 </main>
             </div>
 
