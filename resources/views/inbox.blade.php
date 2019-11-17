@@ -20,7 +20,7 @@
                 <div class="w-64 flex-shrink-0 bg-gray-800 px-4 py-3">
                     <button class="block w-full flex items-center">
                         <img class="h-10 w-10 rounded-full object-cover" src="https://avatars0.githubusercontent.com/u/16211217?s=400&u=7dec66a25393bfc3c553cc69c74b40b228d0778c&v=4" alt="Profile picture">
-                        <span class="text-sm text-white font-medium ml-4 mr-2">Monica White</span>
+                        <span class="text-sm text-white font-semibold ml-4 mr-2">Monica White</span>
                         <svg class="ml-auto h-5 w-5 text-gray-400 stroke-current"
                              fill="currentColor"
                              xmlns="http://www.w3.org/2000/svg"
@@ -31,10 +31,10 @@
 
                 <div class="flex w-full items-center justify-between bg-gray-700 px-6">
                     <nav>
-                        <a href="#" class="text-sm text-white font-medium bg-gray-800 rounded-lg leading-relaxed inline-block px-3 py-1 ml-1">Mailbox</a>
-                        <a href="#" class="text-sm text-white font-medium rounded-lg leading-relaxed inline-block px-3 py-1 hover:bg-gray-600 ml-1">Customers</a>
-                        <a href="#" class="text-sm text-white font-medium rounded-lg leading-relaxed inline-block px-3 py-1 hover:bg-gray-600 ml-1">Reporting</a>
-                        <a href="#" class="text-sm text-white font-medium rounded-lg leading-relaxed inline-block px-3 py-1 hover:bg-gray-600 ml-1">Manage</a>
+                        <a href="#" class="text-sm text-white font-medium bg-gray-800 rounded-lg leading-relaxed inline-block px-3 py-1 ml-1 font-semibold">Mailbox</a>
+                        <a href="#" class="text-sm text-white font-medium rounded-lg leading-relaxed inline-block px-3 py-1 hover:bg-gray-600 ml-1 font-semibold">Customers</a>
+                        <a href="#" class="text-sm text-white font-medium rounded-lg leading-relaxed inline-block px-3 py-1 hover:bg-gray-600 ml-1 font-semibold">Reporting</a>
+                        <a href="#" class="text-sm text-white font-medium rounded-lg leading-relaxed inline-block px-3 py-1 hover:bg-gray-600 ml-1 font-semibold">Manage</a>
                     </nav>
 
                     <div class="flex items-center">
@@ -50,7 +50,7 @@
                         </span>
                             <input class="block w-full
                         bg-gray-900
-                        rounded-lg text-sm font-medium
+                        rounded-lg text-sm font-semibold
                         placeholder-gray-400
                         text-white pl-12 pr-4 py-2
                         focus:outline-none focus:bg-white focus:placeholder-gray-600 focus:text-gray-900" placeholder="Search">
@@ -81,13 +81,117 @@
                 </div>
 
             </header>
+
             <div class="flex-1 flex">
-                <div class="w-64 bg-gray-100"></div>
+                <div class="w-64 bg-gray-100 p-6">
+                    <nav>
+                        <h2 class="text-sm font-semibold text-gray-600 tracking-wide uppercase">Mailboxes</h2>
+                        <div class="mt-4">
+                            <a href="#" class="-mx-3 px-3 py-1 flex items-center justify-between rounded-lg bg-gray-200">
+                                <span class="inline-flex">
+                                    <svg class="h-6 w-6 py-1" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                         viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+	                                <path d="M8,22c-4.411,0-8,3.589-8,8s3.589,8,8,8s8-3.589,8-8S12.411,22,8,22z M8,36c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6
+		                            S11.309,36,8,36z"/>
+	                                <path d="M52,22c-4.411,0-8,3.589-8,8s3.589,8,8,8s8-3.589,8-8S56.411,22,52,22z M52,36c-3.309,0-6-2.691-6-6s2.691-6,6-6
+		                            s6,2.691,6,6S55.309,36,52,36z"/>
+	                                <path d="M30,22c-4.411,0-8,3.589-8,8s3.589,8,8,8s8-3.589,8-8S34.411,22,30,22z M30,36c-3.309,0-6-2.691-6-6s2.691-6,6-6
+		                            s6,2.691,6,6S33.309,36,30,36z"/>
+                                    </svg>
+                                    <span class="text-sm text-gray-800 font-semibold ml-3">Inbox</span>
+                                </span>
+                                <span class="inline-block leading-none w-10 py-1 text-center rounded-full bg-gray-300 text-xs text-gray-700 font-semibold">99</span>
+                            </a>
+                            <a href="#" class="mt-3 -mx-3 px-3 py-1 flex items-center justify-between rounded-lg hover:bg-gray-200">
+                                <span class="inline-flex">
+                                    <svg class="h-6 w-6 py-1" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                         viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+	                                <path d="M8,22c-4.411,0-8,3.589-8,8s3.589,8,8,8s8-3.589,8-8S12.411,22,8,22z M8,36c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6
+		                            S11.309,36,8,36z"/>
+	                                <path d="M52,22c-4.411,0-8,3.589-8,8s3.589,8,8,8s8-3.589,8-8S56.411,22,52,22z M52,36c-3.309,0-6-2.691-6-6s2.691-6,6-6
+		                            s6,2.691,6,6S55.309,36,52,36z"/>
+	                                <path d="M30,22c-4.411,0-8,3.589-8,8s3.589,8,8,8s8-3.589,8-8S34.411,22,30,22z M30,36c-3.309,0-6-2.691-6-6s2.691-6,6-6
+		                            s6,2.691,6,6S33.309,36,30,36z"/>
+                                    </svg>
+                                    <span class="text-sm text-gray-600 font-semibold ml-3">Flagged</span>
+                                </span>
+{{--                                <span class="inline-block leading-none w-10 py-1 text-center rounded-full bg-gray-300 text-sm text-gray-700 font-medium">99</span>--}}
+                            </a>
+                            <a href="#" class="mt-3 -mx-3 px-3 py-1 flex items-center justify-between rounded-lg hover:bg-gray-200">
+                                <span class="inline-flex">
+                                    <svg class="h-6 w-6 py-1" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                         viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+	                                <path d="M8,22c-4.411,0-8,3.589-8,8s3.589,8,8,8s8-3.589,8-8S12.411,22,8,22z M8,36c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6
+		                            S11.309,36,8,36z"/>
+	                                <path d="M52,22c-4.411,0-8,3.589-8,8s3.589,8,8,8s8-3.589,8-8S56.411,22,52,22z M52,36c-3.309,0-6-2.691-6-6s2.691-6,6-6
+		                            s6,2.691,6,6S55.309,36,52,36z"/>
+	                                <path d="M30,22c-4.411,0-8,3.589-8,8s3.589,8,8,8s8-3.589,8-8S34.411,22,30,22z M30,36c-3.309,0-6-2.691-6-6s2.691-6,6-6
+		                            s6,2.691,6,6S33.309,36,30,36z"/>
+                                    </svg>
+                                    <span class="text-sm text-gray-600 font-semibold ml-3">Drafts</span>
+                                </span>
+{{--                                <span class="inline-block leading-none w-10 py-1 text-center rounded-full bg-gray-300 text-sm text-gray-700 font-medium">99</span>--}}
+                            </a>
+                            <a href="#" class="mt-3 -mx-3 px-3 py-1 flex items-center justify-between rounded-lg hover:bg-gray-200">
+                                <span class="inline-flex">
+                                    <svg class="h-6 w-6 py-1" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                         viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+	                                <path d="M8,22c-4.411,0-8,3.589-8,8s3.589,8,8,8s8-3.589,8-8S12.411,22,8,22z M8,36c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6
+		                            S11.309,36,8,36z"/>
+	                                <path d="M52,22c-4.411,0-8,3.589-8,8s3.589,8,8,8s8-3.589,8-8S56.411,22,52,22z M52,36c-3.309,0-6-2.691-6-6s2.691-6,6-6
+		                            s6,2.691,6,6S55.309,36,52,36z"/>
+	                                <path d="M30,22c-4.411,0-8,3.589-8,8s3.589,8,8,8s8-3.589,8-8S34.411,22,30,22z M30,36c-3.309,0-6-2.691-6-6s2.691-6,6-6
+		                            s6,2.691,6,6S33.309,36,30,36z"/>
+                                    </svg>
+                                    <span class="text-sm text-gray-600 font-semibold ml-3">Assinged</span>
+                                </span>
+                                <span class="inline-block leading-none w-10 py-1 text-center rounded-full bg-gray-300 text-xs text-gray-700 font-semibold">2</span>
+                            </a>
+                            <a href="#" class="mt-3 -mx-3 px-3 py-1 flex items-center justify-between rounded-lg hover:bg-gray-200">
+                                <span class="inline-flex">
+                                    <svg class="h-6 w-6 py-1" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                         viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+	                                <path d="M8,22c-4.411,0-8,3.589-8,8s3.589,8,8,8s8-3.589,8-8S12.411,22,8,22z M8,36c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6
+		                            S11.309,36,8,36z"/>
+	                                <path d="M52,22c-4.411,0-8,3.589-8,8s3.589,8,8,8s8-3.589,8-8S56.411,22,52,22z M52,36c-3.309,0-6-2.691-6-6s2.691-6,6-6
+		                            s6,2.691,6,6S55.309,36,52,36z"/>
+	                                <path d="M30,22c-4.411,0-8,3.589-8,8s3.589,8,8,8s8-3.589,8-8S34.411,22,30,22z M30,36c-3.309,0-6-2.691-6-6s2.691-6,6-6
+		                            s6,2.691,6,6S33.309,36,30,36z"/>
+                                    </svg>
+                                    <span class="text-sm text-gray-600 font-semibold ml-3">Closed</span>
+                                </span>
+                                <span class="inline-block leading-none w-10 py-1 text-center rounded-full bg-gray-300 text-xs text-gray-700 font-semibold">1</span>
+                            </a>
+                            <a href="#" class="mt-3 -mx-3 px-3 py-1 flex items-center justify-between rounded-lg hover:bg-gray-200">
+                                <span class="inline-flex">
+                                    <svg class="h-6 w-6 py-1" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                         viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+	                                <path d="M8,22c-4.411,0-8,3.589-8,8s3.589,8,8,8s8-3.589,8-8S12.411,22,8,22z M8,36c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6
+		                            S11.309,36,8,36z"/>
+	                                <path d="M52,22c-4.411,0-8,3.589-8,8s3.589,8,8,8s8-3.589,8-8S56.411,22,52,22z M52,36c-3.309,0-6-2.691-6-6s2.691-6,6-6
+		                            s6,2.691,6,6S55.309,36,52,36z"/>
+	                                <path d="M30,22c-4.411,0-8,3.589-8,8s3.589,8,8,8s8-3.589,8-8S34.411,22,30,22z M30,36c-3.309,0-6-2.691-6-6s2.691-6,6-6
+		                            s6,2.691,6,6S33.309,36,30,36z"/>
+                                    </svg>
+                                        <span class="text-sm text-gray-600 font-semibold ml-3">Junk</span>
+                                </span>
+{{--                                <span class="inline-block leading-none w-10 py-1 text-center rounded-full bg-gray-300 text-sm text-gray-700 font-medium">99</span>--}}
+                            </a>
+                        </div>
+                    </nav>
+                    <h2 class="mt-8 text-sm font-semibold text-gray-600 tracking-wide uppercase">Folders</h2>
+                    <div class="mt-4">
+                        <a href="#" class="block text-sm font-semibold text-gray-700">Refunds</a>
+                        <a href="#" class="block text-sm font-semibold text-gray-700 mt-4">Discount</a>
+                        <a href="#" class="block text-sm font-semibold text-gray-700 mt-4">Bugs</a>
+                    </div>
+                </div>
                 <main class="bg-gray-200">
                     <div></div>
                     <div></div>
                 </main>
             </div>
+
         </div>
         <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
     </body>
