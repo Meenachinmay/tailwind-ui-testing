@@ -238,8 +238,8 @@
                                 </svg>
                             </button>
                         </div>
-                        <div>
-                            <a href="#" class="block bg-white px-6 pt-3 pb-4 rounded-lg">
+                        <div class="overflow-hidden">
+                            <a href="#" class="block bg-white px-6 pt-3 pb-4 hover:bg-gray-200">
                                 <div class="flex justify-between items-center">
                                     <span class="text-sm font-semibold text-gray-800">
                                         Gloria Robertson
@@ -255,7 +255,7 @@
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                 </p>
-                            </a><a href="#" class="block bg-white px-6 pt-3 pb-4 rounded-lg border-t">
+                            </a><a href="#" class="block bg-white px-6 pt-3 pb-4 border-t hover:bg-gray-200">
                                 <div class="flex justify-between items-center">
                                     <span class="text-sm font-semibold text-gray-800">
                                         Gloria Robertson
@@ -271,7 +271,7 @@
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                 </p>
-                            </a><a href="#" class="block bg-white px-6 pt-3 pb-4 rounded-lg border-t">
+                            </a><a href="#" class="block bg-white px-6 pt-3 pb-4 border-t hover:bg-gray-200">
                                 <div class="flex justify-between items-center">
                                     <span class="text-sm font-semibold text-gray-800">
                                         Gloria Robertson
@@ -287,7 +287,7 @@
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                 </p>
-                            </a><a href="#" class="block bg-white px-6 pt-3 pb-4 rounded-lg border-t">
+                            </a><a href="#" class="block bg-white px-6 pt-3 pb-4 border-t">
                                 <div class="flex justify-between items-center">
                                     <span class="text-sm font-semibold text-gray-800">
                                         Gloria Robertson
@@ -304,7 +304,7 @@
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                 </p>
                             </a>
-                            <a href="#" class="block bg-white px-6 pt-3 pb-4 rounded-lg border-t">
+                            <a href="#" class="block bg-white px-6 pt-3 pb-4 border-t">
                                 <div class="flex justify-between items-center">
                                     <span class="text-sm font-semibold text-gray-800">
                                         Gloria Robertson
@@ -320,7 +320,7 @@
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                 </p>
-                            </a><a href="#" class="block bg-white px-6 pt-3 pb-4 rounded-lg border-t">
+                            </a><a href="#" class="block bg-white px-6 pt-3 pb-4 border-t">
                                 <div class="flex justify-between items-center">
                                     <span class="text-sm font-semibold text-gray-800">
                                         Gloria Robertson
@@ -336,7 +336,7 @@
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                 </p>
-                            </a><a href="#" class="block bg-white px-6 pt-3 pb-4 rounded-lg border-t">
+                            </a><a href="#" class="block bg-white px-6 pt-3 pb-4 border-t">
                                 <div class="flex justify-between items-center">
                                     <span class="text-sm font-semibold text-gray-800">
                                         Gloria Robertson
@@ -352,7 +352,7 @@
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                 </p>
-                            </a><a href="#" class="block bg-white px-6 pt-3 pb-4 rounded-lg border-t">
+                            </a><a href="#" class="block bg-white px-6 pt-3 pb-4 border-t">
                                 <div class="flex justify-between items-center">
                                     <span class="text-sm font-semibold text-gray-800">
                                         Gloria Robertson
@@ -368,7 +368,7 @@
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                 </p>
-                            </a><a href="#" class="block bg-white px-6 pt-3 pb-4 rounded-lg border-t">
+                            </a><a href="#" class="block bg-white px-6 pt-3 pb-4 border-t">
                                 <div class="flex justify-between items-center">
                                     <span class="text-sm font-semibold text-gray-800">
                                         Gloria Robertson
@@ -384,7 +384,7 @@
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                 </p>
-                            </a><a href="#" class="block bg-white px-6 pt-3 pb-4 rounded-lg border-t">
+                            </a><a href="#" class="block bg-white px-6 pt-3 pb-4 border-t">
                                 <div class="flex justify-between items-center">
                                     <span class="text-sm font-semibold text-gray-800">
                                         Gloria Robertson
@@ -400,7 +400,7 @@
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                 </p>
-                            </a><a href="#" class="block bg-white px-6 pt-3 pb-4 rounded-lg border-t">
+                            </a><a href="#" class="block bg-white px-6 pt-3 pb-4 border-t">
                                 <div class="flex justify-between items-center">
                                     <span class="text-sm font-semibold text-gray-800">
                                         Gloria Robertson
@@ -416,7 +416,7 @@
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                 </p>
-                            </a><a href="#" class="block bg-white px-6 pt-3 pb-4 rounded-lg border-t">
+                            </a><a href="#" class="block bg-white px-6 pt-3 pb-4 border-t">
                                 <div class="flex justify-between items-center">
                                     <span class="text-sm font-semibold text-gray-800">
                                         Gloria Robertson
@@ -432,7 +432,7 @@
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                 </p>
-                            </a><a href="#" class="block bg-white px-6 pt-3 pb-4 rounded-lg border-t">
+                            </a><a href="#" class="block bg-white px-6 pt-3 pb-4 border-t">
                                 <div class="flex justify-between items-center">
                                     <span class="text-sm font-semibold text-gray-800">
                                         Gloria Robertson
@@ -448,7 +448,7 @@
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                 </p>
-                            </a><a href="#" class="block bg-white px-6 pt-3 pb-4 rounded-lg border-t">
+                            </a><a href="#" class="block bg-white px-6 pt-3 pb-4 border-t">
                                 <div class="flex justify-between items-center">
                                     <span class="text-sm font-semibold text-gray-800">
                                         Gloria Robertson
@@ -464,7 +464,7 @@
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                 </p>
-                            </a><a href="#" class="block bg-white px-6 pt-3 pb-4 rounded-lg border-t">
+                            </a><a href="#" class="block bg-white px-6 pt-3 pb-4 border-t">
                                 <div class="flex justify-between items-center">
                                     <span class="text-sm font-semibold text-gray-800">
                                         Gloria Robertson
